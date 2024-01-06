@@ -16,7 +16,7 @@ header{
   background: url('../images/banner/banner1.png');
 }
 .container{
-  padding: 0px 230px;
+  margin: 0px 230px;
 }
 .banner{
   padding: 210px 0 150px;
@@ -111,4 +111,31 @@ Header Part Css End
   font-size: 25px;
   font-weight: 700;
   padding: 25px 0 15px;
+}
+/* ==================
+    Planing Part End
+==================== */
+.contacts{
+  margin-bottom: 130px;
+}
+.contact_details{
+  background: url('../images/gradient2.png'), url('../images/watch.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 60px 500px 40px 30px;
+  border-radius: 8px;
+}
+.contact_details h3{
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.contact_details a{
+  font-size: 20px;
+  font-weight: 600;
+  color: #F15B22;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 14px 20px;
 }
