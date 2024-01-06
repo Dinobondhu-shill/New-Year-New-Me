@@ -89,3 +89,26 @@ Header Part Css End
   color: #16D887;
 
 }
+/* Image section End */
+.plans{
+  padding: 130px 0;
+}
+.plans h2{
+  text-align: center;
+}
+.planning_step{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plannig_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.plannig_item h4{
+  font-size: 25px;
+  font-weight: 700;
+  padding: 25px 0 15px;
+}
