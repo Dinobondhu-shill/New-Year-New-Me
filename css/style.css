@@ -131,11 +131,70 @@ Header Part Css End
   color: #FFFFFF;
   margin-bottom: 30px;
 }
-.contact_details a{
+.button_style{
   font-size: 20px;
   font-weight: 600;
   color: #F15B22;
   background-color: #FFFFFF;
   border-radius: 5px;
   padding: 14px 20px;
+}
+/* Footer Section Start */
+footer{
+  background-color: #000;
+  padding: 130px 0;
+}
+.footer_details{
+  display: flex;
+  justify-content: space-between;
+}
+.footer_details h3{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.future p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 480px;
+  margin-bottom: 25px;
+}
+.future ul>li{
+  margin-bottom: 20px;
+}
+.future li{
+  color: #fff !important;
+}
+.social_media{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.social_media li{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #444343;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(216, 203, 203);
+}
+.subscribe{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.subscribe input{
+ width: 320px;
+ border: 1px solid #444343;
+ background: transparent;
+ padding: 22px 0 22px 20px;
+ border-radius: 8px;
+}
+.subscribe a{
+  width: fit-content;
 }
