@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+header{
+  background: url('../images/banner/banner1.png');
+}
+.container{
+  padding: 0px 230px;
+}
+.banner{
+  padding: 210px 0 150px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.banner_text{
+  text-align: right;
+}
+.banner_text h1{
+  width: 525px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #000;
+  margin-right: 10px;
+}
+.banner_text p{
+  width: 494px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #444343;
+  margin: 24px 20px 35px;
+  line-height: 26px;
+}
+.banner_text a{
+  padding: 15px 20px;
+  background-color: #F15B22;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+/* =====================
+Header Part Css End
+========================== */
+.images_text_area{
+  display: flex;
+  gap: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+.image_section{
+  padding-top: 130px;
+}
+.image_section img{
+  width: 430px;
+}
+.text_section{
+  padding-top: 230px;
+}
+.text_section h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 25px;
+}
+.text_section p, li{
+  width: 416px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #444343;
+  line-height: 26px;
+}
+.text_section ul{
+  margin-top: 15px;
+}
+.text_section li i{
+  color: #16D887;
+
+}
